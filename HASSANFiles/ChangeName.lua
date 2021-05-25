@@ -14,9 +14,6 @@ if result.first_name_ then
 if abbs and abbs ~= result.first_name_ then 
 local abs_text = {
 "اسمك "..result.first_name_.." ليش غيرته 🌚😹",
-"وفف اسمكك الجديد يشكك، 🤤♥️ ",
-"ليش غيرت اسمك "..result.first_name_.."\n قطيت احد حبي ؟ 🌚😹",
-"اسمك "..result.first_name_.." فد شي وين زخرفته ؟، 🤤♥️", 
 }
 abbss = math.random(#abs_text)
 Dev_Abs(msg.chat_id_, msg.id_, 1, abs_text[abbss], 1, 'html')
